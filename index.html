@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="time-block"></p>
+    </header>
+    <!-- To align the table cells vertically, used class="align-middle" (from bootstrap) for the td tag-->
+    <div class="container">
+      <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Activity</th>
+            <th scope="col">Save</th>
+          </tr>
+        </thead>
+        <tbody class="table-hover">
+          <tr id="row_9am">
+            <td class="hour">9AM</td>
+            <td class="p-0"><textarea id="activity_9am" cols="100%" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="9am"><i class="fas fa-save"></i></button></td>
+          </tr>      
+          <tr id="row_10am">
+            <td class="hour">10AM</td>
+            <td class="p-0"><textarea id="activity_10am" cols="100%" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="10am"><i class="fas fa-save"></i></button></td>
+          </tr> 
+          <tr id="row_11am">
+            <td class="hour">11AM</td>
+            <td class="p-0"><textarea id="activity_11am" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="11am"><i class="fas fa-save"></i></button></td>
+          </tr> 
+          <tr id="row_12am">
+            <td class="hour">12AM</td>
+            <td class="p-0"><textarea id="activity_12am" cols="100%" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="12am"><i class="fas fa-save"></i></button></td>
+          </tr> 
+          <tr id="row_1pm">
+            <td class="hour">1PM</td>
+            <td class="p-0"><textarea id="activity_1pm" cols="100%" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="1pm"><i class="fas fa-save"></i></button></td>
+          </tr>
+          <tr id="row_2pm">
+            <td class="hour">2PM</td>
+            <td class="p-0"><textarea id="activity_2pm" cols="100%" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="2pm"><i class="fas fa-save"></i></button></td>
+          </tr> 
+          <tr id="row_3pm">
+            <td class="hour">3PM</td>
+            <td class="p-0"><textarea id="activity_3pm" cols="100%" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="3pm"><i class="fas fa-save"></i></button></td>
+          </tr> 
+          <tr  id="row_4pm">
+            <td class="hour">4PM</td>
+            <td class="p-0"><textarea id="activity_4pm" cols="100%" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="4pm"><i class="fas fa-save"></i></button></td>
+          </tr> 
+          <tr id="row_5pm">
+            <td class="hour">5PM</td>
+            <td class="p-0"><textarea id="activity_5pm" cols="100%" rows="2" class="description"></textarea></td>
+            <td class="saveBtn"><button data-time="5pm"><i class="fas fa-save"></i></button></td>
+          </tr>  
+          
+        </tbody>
+      </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
