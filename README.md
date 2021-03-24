@@ -25,3 +25,7 @@ THEN the saved events persist
 The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./assets/WorkDayScheduler_demo.gif)
+
+* The URL of the deployed application: https://zahid267.github.io/WorkDayScheduler/
+
+* The URL of the GitHub repository: https://github.com/zahid267/WorkDayScheduler
