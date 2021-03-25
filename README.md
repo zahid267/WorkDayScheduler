@@ -29,3 +29,5 @@ The following animation demonstrates the application functionality:
 * The URL of the deployed application: https://zahid267.github.io/WorkDayScheduler/
 
 * The URL of the GitHub repository: https://github.com/zahid267/WorkDayScheduler
+
+* Create by Muhammad Zahid - March 24, 2021
